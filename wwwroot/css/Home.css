@@ -1,0 +1,52 @@
+﻿.div-titulo-pagina {
+    font-size: 36px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-planos-pagina {
+    background: aqua;
+    margin-top: 6px;
+    border-radius: 9px;
+}
+
+.div-titulos-planos-pagina {
+    font-size: 36px;
+    letter-spacing: 10px;
+}
+
+.div-componentes-planos-pagina {
+    display: flex;
+    justify-content: center;
+}
+
+.div-planos-pagina-itens {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    background: #101110;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 9px;
+}
+
+@media (max-width: 600px) {
+
+    .div-componentes-planos-pagina {
+        justify-content: center;
+        display: grid;
+    }
+
+
+
+    .div-titulos-planos-pagina {
+        font-size: 36px;
+        letter-spacing: 10px;
+        display: grid;
+    }
+}

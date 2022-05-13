@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Lanhouse.Hydra.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<head>
+    <link href="/css/IndexUsuario.css" rel="stylesheet">
+</head>
+
+<h1>Usuários</h1>
+
+    <p>
+        <a asp-action="Create">Adicionar Usuário</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr style="background: black;color: #fff;">
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Telefone)
+                    </td>
+                    <td>
+                        <div class="div-editar-deletar">
+                            <div class="div-acoes-botoes">
+                                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                            </div>
+                            <div class="div-acoes-botoes">
+                                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+                            </div>
+                        </div>                          
+</td>
+                </tr>
+            }
+        </tbody>
+    </table>

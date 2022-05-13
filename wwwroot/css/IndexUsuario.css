@@ -1,0 +1,37 @@
+﻿.pb-3, .py-3 {
+    padding-bottom: 1rem !important;
+    background: aqua;
+    border-radius: 9px;
+    margin-top: 60px;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    padding: 0px 0px 15px 30px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0 0 15px 30px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid aqua !important;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 2px solid aqua !important;
+}
+
+.div-editar-deletar {
+    display: flex;
+    justify-content: center;
+}
+
+.div-acoes-botoes {
+    padding: 0 0 0 10px;
+}

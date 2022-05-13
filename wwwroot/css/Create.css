@@ -1,0 +1,28 @@
+﻿.row {
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 149px;
+    margin-left: 149px;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    border-radius: 9px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.retornar-pagina-princ {
+    margin-bottom: 18px;
+}
+
+.h1, h1 {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}

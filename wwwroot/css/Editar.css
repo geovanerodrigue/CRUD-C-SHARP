@@ -1,0 +1,27 @@
+﻿.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: aqua;
+    border-radius: 9px;
+    justify-content: center;
+    margin-right: 149px;
+    margin-left: 149px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.h1, h1 {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.botao-voltar {
+    margin-bottom: 20px;
+}
